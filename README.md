@@ -30,7 +30,7 @@ Alternatively, you can organize the files following this repository's structure 
 
 ### Notes
 
-1. This repository is updated irregularly. For the latest code, please refer to the original repository.
+1. I am too lazy to update this warehouse code. Please get the latest code from the original warehouse. Generally, copy the main program code from the original git repository and update it to your repository.
 2. When deploying on Vercel, the request path should be in the form of `https://example.com/api?` or `https://example.com/api/?`, not the root directory.
 3. Example request path: `https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb`. Requesting this URL will return an error response because the URL in the source.txt of this repository is invalid.
 
@@ -70,7 +70,7 @@ Alternatively, you can organize the files following this repository's structure 
 
 ### 注意事项
 
-1. 本仓库的更新不定期。如果需要最新代码，请从原始仓库获取。
+1. 我懒得更新此仓库代码，最新代码请从原仓库获取，一般从原仓库复制一下主程序代码然后更新到你的仓库即可。
 2. 在 Vercel 部署时，请求路径应形如 `https://example.com/api?` 或 `https://example.com/api/?`，而非根目录。
 3. 请求路径例：`https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb` 请求此 url 会得到错误回应，因为本仓库的 source.txt 中的 url 是无效的
 
