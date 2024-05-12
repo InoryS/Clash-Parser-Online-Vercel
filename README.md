@@ -22,7 +22,7 @@ For more details, please refer to: https://github.com/InoryS/Clash-Parser-Online
 
 1. Fork this repository and set it as a private repository.
 2. Log in to your Vercel account and import the forked repository.
-3. Keep the default build settings unchanged.
+3. Select Other for the framework preset and keep the default build settings unchanged.
 4. Wait for the deployment to finish.
 5. Once completed, the service will be available.
 
@@ -62,7 +62,7 @@ Alternatively, you can organize the files following this repository's structure 
 ### 部署指南
 1. Fork 本仓库，并将其设置为私有仓库。
 2. 使用您的 Vercel 账户登录并导入刚刚 Fork 的仓库。
-3. 保持默认的构建设置不变。
+3. 框架预设选择 Other，保持默认的构建设置不变。
 4. 等待部署完成。
 5. 部署完成后即可使用。
 
