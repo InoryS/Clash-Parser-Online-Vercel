@@ -6,7 +6,7 @@
 
 This repository is a deployment example of Clash-Parser-Online on Vercel.
 
-For more details, please refer to: https://github.com/InoryS/Clash-Parser-Online-Vercel
+For details, please refer to the original repository: https://github.com/InoryS/Clash-Parser-Online
 
 ### Warning
 
@@ -49,7 +49,7 @@ Alternatively, you can organize the files following this repository's structure 
 
 此仓库是 Clash-Parser-Online 的 Vercel 的部署示例。
 
-有关详细信息，请参考：https://github.com/InoryS/Clash-Parser-Online-Vercel
+有关详细信息，请参考原仓库：https://github.com/InoryS/Clash-Parser-Online
 
 ### 警告
 
