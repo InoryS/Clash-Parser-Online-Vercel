@@ -1,0 +1,28 @@
+{
+  "redirects": [
+    {
+      "source": "/mixin-premium.yaml",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/mixin.yaml",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/parser.yaml",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/requirements.txt",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/source.txt",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/.git",
+      "destination": "/index.html"
+    }
+  ]
+}
