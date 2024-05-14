@@ -17,6 +17,8 @@ For more details, please refer to: https://github.com/InoryS/Clash-Parser-Online
 > Therefore, it's strongly recommended that you deploy your own example rather than using someone else's service.
 >
 > Although this repository doesn't include such features, I still recommend using your own code. Of course, if you're willing to intentionally create erroneous requests and share them with me, that's even better (just kidding).
+>
+> Also, you need to pay attention to vercel.json, I use the redirection feature in vercel.json to protect sensitive files from external access, you may want to make sure it is applied correctly.
 
 ### Deployment Guide
 
@@ -58,6 +60,8 @@ Alternatively, you can organize the files following this repository's structure 
 > 因此，强烈建议您部署自己的示例，而不要使用他人搭建的服务。
 >
 > 虽然本仓库代码不含此功能，但我还是建议使用你自己的，当然你愿意故意构造错误请求分享给我看见就更好了（不是）
+>
+> 另外，你需要留意 vercel.json，我使用 vercel.json 中的重定向功能来保护敏感文件不可被外部访问，你可能想要确认其被正确应用。
 
 ### 部署指南
 1. Fork 本仓库，并将其设置为私有仓库。
