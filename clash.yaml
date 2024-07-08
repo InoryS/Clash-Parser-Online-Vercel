@@ -1,0 +1,19 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: :9090
+
+proxies:
+- name: "some-socks5"
+  type: socks5
+  server: example.com
+  port: 1080
+  username: example
+  password: exampleexample
+- name: "WLAN"
+  type: direct
+  udp: true
+  ip-version: ipv4
+  interface-name: WLAN
