@@ -34,8 +34,8 @@ Alternatively, you can organize the files following this repository's structure 
 
 1. I am too lazy to update this warehouse code. Please get the latest code from the original warehouse. Generally, copy the main program code from the original git repository and update it to your repository.
 2. When deploying on Vercel, the request path should be in the form of `https://example.com/api?` or `https://example.com/api/?`, not the root directory.
-3. Example request path: `https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb`. Requesting this URL will return an error response because the URL in the source.txt of this repository is invalid.
-
+3. Example request path: `https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb`
+4. You can visit to see what will be returned. The source.txt contains the original subscription link, which is obtained by [subscription conversion](https://github.com/tindy2013/subconverter) in the clash.yaml of this repository.
 
 <br>
 <br>
@@ -76,7 +76,8 @@ Alternatively, you can organize the files following this repository's structure 
 
 1. 我懒得更新此仓库代码，最新代码请从原仓库获取，一般从原仓库复制一下主程序代码然后更新到你的仓库即可。
 2. 在 Vercel 部署时，请求路径应形如 `https://example.com/api?` 或 `https://example.com/api/?`，而非根目录。
-3. 请求路径例：`https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb` 请求此 url 会得到错误回应，因为本仓库的 source.txt 中的 url 是无效的
+3. 请求路径例：`https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb` 
+4. 你可以访问查看会返回什么，source.txt 内有原订阅连接，该订阅连接是由本仓库的 clash.yaml 进行[订阅转换](https://github.com/tindy2013/subconverter)得到的。
 
 
 
