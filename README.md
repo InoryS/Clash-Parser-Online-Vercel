@@ -37,6 +37,19 @@ Alternatively, you can organize the files following this repository's structure 
 3. Example request path: `https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb`
 4. You can visit to see what will be returned. The source.txt contains the original subscription link, which is obtained by [subscription conversion](https://github.com/tindy2013/subconverter) in the clash.yaml of this repository.
 
+### Comparison
+Request separately
+Original link:
+```
+https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FInoryS%2FClash-Parser-Online-Vercel%2Fmain%2Fclash.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR _Online_Full_MultiMode.ini&emoji=true&list=false&tfo=true&fdn=false&sort=true&clash.doh=true&new_name=true&append_type=true&udp=true&interval=43200&tls13=true&scv=false
+```
+Links processed by this repository:
+```
+https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb
+```
+
+See what the difference is
+
 <br>
 <br>
 <br>
@@ -80,4 +93,17 @@ Alternatively, you can organize the files following this repository's structure 
 4. 你可以访问查看会返回什么，source.txt 内有原订阅连接，该订阅连接是由本仓库的 clash.yaml 进行[订阅转换](https://github.com/tindy2013/subconverter)得到的。
 
 
+### 对比
+分别请求
+
+原链接：
+```
+https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FInoryS%2FClash-Parser-Online-Vercel%2Fmain%2Fclash.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini&emoji=true&list=false&tfo=true&fdn=false&sort=true&clash.doh=true&new_name=true&append_type=true&udp=true&interval=43200&tls13=true&scv=false
+```
+和本仓库处理过的链接：
+```
+https://clash-parser-online-vercel.vercel.app/api?source=jynb&mixin=jynb
+```
+
+看看有什么不同
 
