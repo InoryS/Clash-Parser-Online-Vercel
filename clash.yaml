@@ -12,6 +12,24 @@ proxies:
   port: 1080
   username: example
   password: exampleexample
+- name: "US"
+  type: socks5
+  server: example.com
+  port: 1080
+  username: example
+  password: exampleexample
+- name: "AUS"
+  type: socks5
+  server: example.com
+  port: 1080
+  username: example
+  password: exampleexample
+- name: "RUS"
+  type: socks5
+  server: example.com
+  port: 1080
+  username: example
+  password: exampleexample
 - name: "WLAN"
   type: direct
   udp: true
